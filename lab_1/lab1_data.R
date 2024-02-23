@@ -126,6 +126,7 @@ qplot(interaction(ToothGrowth$supp, ToothGrowth$dose), ToothGrowth$len, geom="bo
 qplot(interaction(supp,dose), len, data=ToothGrowth, geom = "boxplot")
 ggplot(ToothGrowth, aes(x=interaction(supp,dose), y=len)) + geom_boxplot()
 
+help("t.test")
 
 
 #other data
